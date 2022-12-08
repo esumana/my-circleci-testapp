@@ -17,4 +17,4 @@ jobs:
           command: sudo apt-get update
       - run:
           name: Run some hello
-          command: python hello.py
+          command: python app.py
