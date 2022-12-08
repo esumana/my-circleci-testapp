@@ -12,3 +12,9 @@ jobs:
     steps:
       - checkout
       - run: python --version
+      - run:
+          name: Install updates
+          command: apt-get update
+      - run:
+          name: Run some hello
+          command: python hello.py
