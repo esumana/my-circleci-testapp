@@ -6,9 +6,9 @@ app = FastAPI()
 
 
 @app.get("/")
-def get_root():
+def root():
     return {"message": "hello world"}
 
 @app.get("/ping")
-def get_root():
+def ping():
     return {"message": "pong"}
